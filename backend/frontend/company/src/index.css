@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgb(0, 0, 0);
+  background-image: url("./img/cosmos2.jpg");
+  background-repeat: no-repeat;
+ 
+}
+
+.cw-b{
+  color: black;
+}
+
+.cw-w{
+  color: white;
+}
+
+.btn{
+  all: unset;
+  color: black;
+  background-color: white;
+  height: 40px;
+  width: 12rem;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: medium;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+  background-color: rgba(255, 255, 255, 0.137);
+  color: white;
+}
+
+.btn-delete{
+  background-color: rgba(255, 0, 0, 0);
+  width: 30px;
+  border-radius: 8px;
+  color: white;
+}

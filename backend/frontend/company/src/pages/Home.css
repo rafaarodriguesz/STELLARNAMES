@@ -1,0 +1,43 @@
+h1 {
+    color: white;
+    margin: 0px;
+}
+
+p {
+    color: white;
+}
+
+#body-container {
+
+    text-align: center;
+    padding: 100px 100px 0px 100px;
+    display: flex;
+}
+
+#box1 {
+    padding-top: 50px;
+    margin-right: auto;
+    font-size: larger;
+    text-align: left;
+}
+
+#box2 {
+    padding-top: 50px;
+    margin-left: auto;
+    z-index: 10;
+
+    position: relative;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
