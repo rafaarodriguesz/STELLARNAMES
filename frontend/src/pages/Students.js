@@ -96,7 +96,7 @@ const Students = () => {
             <br />
             <ul>
                 {user.map((user) => (
-                    <li key={user._id}>{user.name}
+                    <li key={user._id}>
 
                         {editId === user._id ? (
                             <>
